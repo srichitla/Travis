@@ -1,0 +1,5 @@
+language: python
+python:
+  - "2.7"
+install: pip install requests==2.9.1
+script: python travis-wrapper.py -n demo.apk -appId ee5370ad9589b5bf9a70aee7c4eaaeda -token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNyaWthbnRoIiwib3JpZ19pYXQiOjE1MDc1MzcyMDEsInVzZXJfaWQiOjE3LCJlbWFpbCI6InNyaWthbnRoLmNoaXRsYUBhY2NlbnR1cmUuY29tIiwiZXhwIjoxNTE0MDE3MjAxfQ.zPYZ259IcHA4obx6R9fLhADQzNHdjh5VbxHsY6JYOe4
